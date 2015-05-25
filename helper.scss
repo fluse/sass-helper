@@ -56,6 +56,11 @@
 	transform: translateY(-50%);
 }
 
+.no-tap-color {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent; /* For some Androids */
+}
+
 .cf:before,
 .cf:after {
 	content: " "; /* 1 */
